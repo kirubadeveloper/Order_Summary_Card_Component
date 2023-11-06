@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display',
+      sans-serif;
+  min-height: 100vh;
+  background-image: url(https://www.digitshack.com/codepen/mentor1/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  position: relative;
+  font-size: 16px;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.text-content{
+  padding: 20px;
+}
+
+.title{
+  text-align: center;
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.subtitle{
+  color: gray;
+  margin: 0 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.plan-box{
+  display: flex;
+  padding: 25px;
+  margin: 10px 40px;
+  border-radius: 20px;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 94%);
+  align-items: center;
+  font-size: 16px;
+
+}
+
+.plan-box-left{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.anchor{
+  margin-left: 110px;
+}
+
+.anchor:hover{
+  text-decoration: none;
+  color: black;
+}
+
+a.proceed-btn{
+  margin: 20px 40px;
+  margin-top: 30px;
+  display: block;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: hsl(245, 75%, 52%);
+}
+
+a.cancel-btn{
+  margin: 0 40px;
+  margin-bottom: 40px;
+  display: block;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+a.proceed-btn:hover{
+  background-color: hsl(256, 93%, 47%);
+}
+
+
+a.cancel-btn:hover{
+background-color: hsl(240, 66%, 55%);
+color: white;
+}
